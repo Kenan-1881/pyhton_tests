@@ -1,3 +1,5 @@
+# CONGRATULATIONS KIRIL !
+
 play = 'y'
 user_answer = input('do you want advice on the weather ? (y/n)')
 
