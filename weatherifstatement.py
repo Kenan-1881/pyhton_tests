@@ -1,4 +1,7 @@
 # CONGRATULATIONS KIRIL !
+# Another Change !
+
+a=5
 
 play = 'y'
 user_answer = input('do you want advice on the weather ? (y/n)')
@@ -19,21 +22,19 @@ while True:
         elif temperature >= 10:
             print("it's a bit cold day")
             print("get a jacket for outside!")
-        
+
         else:
             print("it's freezing!")
             print("don't go outside!")
-        
+
         wants_repeat = input("Do you want another advice? (y/n)")
 
         if wants_repeat == 'y':
             continue
         else:
             break
-    
+
     else:
         break
-    
+
 print('bye!')
-
-
